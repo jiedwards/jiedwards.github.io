@@ -1,0 +1,214 @@
+.navbar {
+  background-color: #001538;
+  font-family: 'PT Sans', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 0!important;
+}
+
+#hobbies {
+  text-align: center;
+}
+
+li a:hover {
+  color: #3aafa9 !important;
+  background-color: #001538;
+}
+
+#hamburger {
+  display: inline-block;
+  position: absolute;
+  top: -60%;
+  right: -70%;
+}
+
+#navLogo {
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+}
+
+li a {
+  color: #3aafa9 !important;
+  background-color: #001538;
+}
+
+h3#whoamI,
+h3#interests {
+  text-align: center;
+  font-family: 'Miriam Libre', sans-serif;
+
+}
+
+.header {
+  background-color: #3aafa9;
+  /* Pale Red */
+  color: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.tableHolder {
+  background-color: white;
+  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.skillsContainer {
+  background-color: #3aafa9;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  font-family: 'Miriam Libre', sans-serif;
+
+}
+
+p {
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+img {
+  float: center;
+  border-radius: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#skills {
+  margin-top: -20px;
+  background-color: #3aafa9;
+  color: white;
+  text-align: center;
+}
+
+#interests {
+  margin-top: -24px;
+  background-color: #3aafa9;
+  color: white;
+  text-align: left;
+  margin-left: 8%;
+  
+}
+
+#portfolio {
+  background-color: white;
+  color: black;
+}
+
+#values {
+  padding-top: 50px;
+  background-color: #3aafa9;
+  color: white;
+  font-family: 'Miriam Libre', sans-serif;
+
+}
+
+#contact {
+  background-color: white;
+  color: black;
+  font-family: 'Miriam Libre', sans-serif;
+
+}
+
+p#footer {
+  font-size: 14px;
+}
+
+.form {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#PHP {
+  background-color: red;
+}
+
+#Java {
+  background-color: green;
+}
+
+#JavaScript {
+  background-color: purple;
+}
+
+#CSS {
+  background-color: orange;
+}
+
+#HTML {
+  background-color: blue;
+}
+
+span.icon:before {
+  font-family: FontAwesome;
+  content: "\f015";
+}
+
+.glyphicon {
+  font-size: 40px;
+}
+
+body {
+  color: #3aafa9;
+  background-color: #3aafa9;
+  font-family: 'Miriam Libre', sans-serif;
+}
+.typewriter h1 {
+  color: #fff;
+  font-family: 'Miriam Libre', sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 3px solid green; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end 9;
+}
+
+.typewriter h4 {
+  color: #fff;
+  font-family: 'Miriam Libre', sans-serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 3px solid green; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 1px; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end 9;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: green }
+}
