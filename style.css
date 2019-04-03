@@ -179,23 +179,23 @@ body {
   color: #fff;
   font-family: 'Miriam Libre', sans-serif;
   overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
+  white-space: nowrap; 
+  margin: 0 auto; 
   letter-spacing: 1px; 
   animation: 
-    typing 3.5s steps(30, end),
+    typing 4.5s steps(30, end),
     blink-caret .5s step-end 9;
 }
 
 .typewriter h4 {
   color: #fff;
   font-family: 'Miriam Libre', sans-serif;
-  overflow: hidden;
-  white-space: nowrap;
+  overflow: hidden; 
+  white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: 1px; 
   animation: 
-    typing 3.5s steps(30, end),
+    typing 4.5s steps(30, end),
     blink-caret .5s step-end 9;
 }
 
@@ -206,5 +206,5 @@ body {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  100% { border-color: green }
+  50% { border-color: green }
 }
