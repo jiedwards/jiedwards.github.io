@@ -77,7 +77,6 @@ li {
   font-family: 'PT Sans', sans-serif;
 }
 
-
 img {
   float: center;
   border-radius: 5%;
@@ -85,11 +84,16 @@ img {
   margin-left: auto;
 }
 
+
 #skills {
   margin-top: -20px;
   background-color: #3aafa9;
   color: white;
   text-align: center;
+}
+
+#hobbies {
+  display: inline;
 }
 
 #interests {
@@ -111,14 +115,12 @@ img {
   background-color: #3aafa9;
   color: white;
   font-family: 'Miriam Libre', sans-serif;
-
 }
 
 #contact {
   background-color: white;
   color: black;
   font-family: 'Miriam Libre', sans-serif;
-
 }
 
 p#footer {
@@ -207,4 +209,26 @@ body {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: green }
+}
+
+#java, #cars, #people {
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-right: 1px;
+  width: 30%;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #java, #cars, #people {
+    margin-bottom: 2%;
+    width: 100%;
+  }
 }
