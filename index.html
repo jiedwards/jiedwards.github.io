@@ -17,6 +17,7 @@
 
 </head>
 
+
 <body>
 
   <nav class="navbar">
@@ -136,26 +137,13 @@
           <li>Back-end Development: Most recently completed a Java-Based Vehicle Database incorporating SQL, can be
             seen below in the portfolio.</li>
         </ul>
-      </div>
-      <div id="hobbies" class="row">
-        <img class="pull-center" id="bjj" src="images/bjj_icon.png" style="width:100px;"></img>
-        <label for=>Brazilian Jiu-Jitsu</label>
-        <br>
-        <img class="pull-center" id="hacakthon" src="images/hackathon.svg" style="width:100px;"></img>
-        <label>Hackathons</label>
-        <img class="pull-center" id="running" src="images/running.png" style="width:100px;"></img>
-        <label for="running" class="pull-center">Running</label>
-
-      </div>
+      </div>  
     </div>
 
-
-
-    <div id="skills" class="container col-sm-6 text-center">
+    <div id="skills" class="container col-sm-7 text-center">
 
       <h3>Skill-set</h3>
       <hr style="width:30%;">
-
       <br>
 
 
@@ -183,7 +171,15 @@
         </div>
       </div>
     </div>
-
+    
+    <div id="hobbies" class="col-lg-12" style="width:100%;">
+        <img id="bjj" src="images/bjj_icon.png" style="width:100px;"></img>
+        <label for=>Brazilian Jiu-Jitsu</label>
+        <img id="hacakthon" src="images/hackathon.svg" style="width:100px;"></img>
+        <label>Hackathons</label>
+        <img id="running" src="images/running.png" style="width:100px;"></img>
+        <label for="running" class="pull-center">Running</label>
+      </div>
   </div>
 
 
@@ -194,16 +190,19 @@
 
 
     <hr style="width:30%;">
-    <br><br>
 
-    <div id="row1" class="row">
-      <div class="col-sm-4">
-        <img src="images/projects/anewHome/anewHome.png" class="img-responsive" style="width:100%" alt="Image">
+
+    <div id="row1" class="row" style="width:100%">
+      
+      <div class="col-sm-4 scale-anm java all" id="java">
+        <br>
+        <img src="images/projects/anewHome/anewHome.png" class="img-responsive" style="width:80%" alt="Image">
         <br><br>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
           Read more: Java Project
         </button>
+        <br><br>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -271,12 +270,15 @@
 
       </div>
       <!-- Portfolio Item 2-->
-      <div class="col-sm-4">
-        <img src="images/projects/surveyWebsite/surveyWebsite.png" class="img-responsive" style="width:100%" alt="Image">
+      <div class="col-sm-4 scale-anm cars all" id="cars">
+        <br>
+        <img src="images/projects/surveyWebsite/surveyWebsite.png" class="img-responsive" style="width:80%" alt="Image">
         <!-- Button trigger modal -->
+        <br>
         <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#portfolio2">
           Read more: PHP Project
         </button>
+        <br><br>
 
         <!-- Modal -->
         <div class="modal fade" id="portfolio2" tabindex="-1" role="dialog" aria-labelledby="portfolio2Label"
@@ -330,15 +332,15 @@
       </div>
 
       <!-- Portfolio Item 3-->
-      <div class="col-sm-4">
-
-        <img src="images/projects/fishingGame/fishing.png" class="img-responsive" style="width:100%" alt="Image">
+      <div class="col-sm-4 scale-anm people all" id="people">
+        <br>
+        <img src="images/projects/fishingGame/fishing.png" class="img-responsive" style="width:80%" alt="Image">
         <br><br>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolio3">
           Read more: Java Project
         </button>
-        <br>
+        <br><br>
 
         <!-- Modal -->
         <div class="modal fade" id="portfolio3" tabindex="-1" role="dialog" aria-labelledby="portfolio3Label"
@@ -387,12 +389,213 @@
 
       </div>
     </div>
-    <br><br>
+
+    <div id="row2" class="row" style="width:100%">
+        <div class="col-sm-4" id="java">
+          <br>
+          <img src="images/projects/anewHome/anewHome.png" class="img-responsive" style="width:80%" alt="Image">
+          <br><br>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Read more: Java Project
+          </button>
+          <br><br>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3>A new home: Java-based game</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <!-- Beginning of carousel-->
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <p>A travelling game developed during a 24-hour hackathon.</p>
+  
+                    <p>The aim of the game is to complete all three levels successfully by continuously running whilst
+                      jumping to avoid obstacles,
+                      however it is not as easy as it sounds. As the levels progress, so does the speed of the game,
+                      ultimately increasing the chances of a collision!</p>
+  
+                    <p>The game will take the user through three cities, each is a level and is in the following order:</p>
+                    <ul>
+                      <li>Blackburn (UK)</li>
+                      <li>Birmingham (UK)</li>
+                      <li>Milan (Italy)</li>
+                    </ul>
+                    <p>Each level is the hometown of a developer which took part in the creation of the game,
+                      the character in each level is a visual representation of the developer.
+                      All developers now live in Manchester (UK) and thus, that is the end destination for each level.
+                      Only upon completion of all levels will the user be able to see that all the characters have
+                      arrived safely in Manchester.</p>
+                  </div>
+                  <hr>
+                      <img class="d-block w-100" src="images/projects/anewHome/anewHome.png" style="width:100%;" alt="First slide">
+                      <img class="d-block w-100" src="images/projects/anewHome/anewHome1.png" style="width:100%;" alt="Second slide">
+                  <div class="row">
+                    <a href="https://github.com/jiedwards/anewhome">
+                      <img border="0" alt="Jacob Edwards LinkedIn" src="images/github.svg" width="70px" height="70px">
+                    </a>
+                    <h3>Github Repository</h3>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+  
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <!-- Portfolio Item 2-->
+        <div class="col-sm-4" id="cars">
+          <br>
+          <img src="images/projects/surveyWebsite/surveyWebsite.png" class="img-responsive" style="width:80%" alt="Image">
+          <!-- Button trigger modal -->
+          <br>
+          <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#portfolio2">
+            Read more: PHP Project
+          </button>
+          <br><br>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="portfolio2" tabindex="-1" role="dialog" aria-labelledby="portfolio2Label"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Surveys: A PHP project</h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+  
+                        <img class="d-block w-100" src="images/projects/surveyWebsite/surveyWebsite.png" style="width:100%;">
+                       
+                        <img class="d-block w-100" src="images/projects/surveyWebsite/surveyWebsite1.png" style="width:100%;">
+         
+                  <hr>
+                  <p>A survey website developed for University.</p>
+  
+                  <p>The aim of the website is to allow users to be able to register an account and create/manage
+                    survey's,
+                    with these surveys they have the ability to share and record individuals' responses.</p>
+  
+                  <p>The website also features an admin account with certain features and privileges, such as</p>
+                  <ul>
+                    <li>Management of user accounts</li>
+                    <li>Management of all survey's</li>
+                    <li></li>
+                  </ul>
+                  <p>Delving into PHP for this website has really broadened my knowledge with regard to the power of
+                    PHP.
+                    It has also provided a valuable experience in developing usable software in languages which aren't
+                    familiar.
+                  </p>
+                  <div class="row">
+                      <a href="https://github.com/jiedwards/surveyWebsite">
+                        <img border="0" alt="Jacob Edwards LinkedIn" src="images/github.svg" width="70px" height="70px">
+                      </a>
+                      <h3>Github Repository</h3>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+        <!-- Portfolio Item 3-->
+        <div class="col-sm-4" id="people">
+          <br>
+          <img src="images/projects/fishingGame/fishing.png" class="img-responsive" style="width:80%" alt="Image">
+          <br><br>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#portfolio3">
+            Read more: Java Project
+          </button>
+          <br><br>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="portfolio3" tabindex="-1" role="dialog" aria-labelledby="portfolio3Label"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Fishing Game: A Java project</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <img class="d-block w-100" src="images/projects/fishingGame/fishing.png" style="width:100%;" alt="First slide">
+                      
+                        <img class="d-block w-100" src="images/projects/fishingGame/fishing1.png" style="width:100%;" alt="Second slide">
+                      
+                  <!-- End of carousel-->
+                  <hr>
+                  <p>First year Java project: Fishing Game</p>
+  
+                  <p>The aim of this game was to develop a fun experience which allowed a user to control an object
+                    which moved at their will: The Boat.
+                    with the primary objective for the game being to capture a moving object: Fish.</p>
+  
+                  <p>As a first year project for University, this really tested my expertise. Not only did it test my
+                    programming,
+                    it also tested my: time-management, persistence and problem-solving ability. Since undertaking this
+                    project,
+                    my proficiency to program in Java and other languages has increased exponentially and this project
+                    was a massive part of that growth.
+                  </p>
+                  <div class="row">
+                    <a href="https://github.com/jiedwards/goFish">
+                      <img border="0" alt="Jacob Edwards LinkedIn" src="images/github.svg" width="70px" height="70px">
+                    </a>
+                    <h3>Github Repository</h3>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    
+    
     <a href="https://github.com/jiedwards">
       <img border="0" alt="Jacob Edwards LinkedIn" src="images/github.svg" width="70px" height="70px">
     </a>
     <h3>Entire Github Repository</h3>
   </div>
+    </div>
+
+    
 
   <!-- Values -->
 
