@@ -224,6 +224,10 @@ body {
   }
 }
 
+.popover {
+  width: 200px;
+}
+
 #java,
 #php,
 #js,
@@ -245,10 +249,10 @@ body {
   #js,
   #mobile {
     margin-top: 2%;
-
     margin-bottom: 4%;
     padding-bottom: 2%;
     margin-left: -1%;
-    width: 100%;
+    max-width: 100%;
   }
+
 }
