@@ -100,12 +100,13 @@
           <li>To undertake a minimum 12-month work placement to experience Software Development in a real-world
             environment</li>
           <ul>
-            <li><b>Placement secured (Company can not yet be disclosed) ✓</b></li>
+            <li><b>Placement secured at Boohoo as a Backend Software Developer. Takes place from June 2019 - June 2020. ✓</b></li>
           </ul>
           <li>Complete 15 projects for Github</li>
-          <li>Attend three hackathons in 2019:</li>
+          <li>Attend five industry related events in 2019:</li>
           <ul>
-            <li><b>26-27 January 2019 - ManMetHacks ✓</b></li>
+            <li><b>26th-27th January 2019 - 48 Hour Hackathon - ManMetHacks ✓</b></li>
+            <li><b>8th-12th April 2019 - Barclays Technology Spring Internship ✓</b></li>
           </ul>
         </ul>
 
@@ -191,7 +192,7 @@
   <hr class="portfolioHeader" id="portfolioHeader" style="width:30%;">
   <h3 class="text-center">Portfolio</h3>
 
-  <hr  style="width:30%;">
+  <hr style="width:30%;">
 
   <h4 class="text-center">Filter by</h4>
 
@@ -213,10 +214,11 @@
       <br>
       <img src="images/projects/vApp/code.png" class="img-responsive" style="width:83%" alt="Image">
       <br>
-      <a tabindex="0" class="btn btn-md btn-primary" role="button" data-toggle="popover" data-trigger="focus"
-        title="Android Vehicle Database"
-        data-content="An Android Mobile Application which acts as a database for Vehicles which can be stored and modified.">Android
-        Vehicle Database</a>
+      <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#p1">
+        Android Vehicle Database
+      </button>
+
+
     </div>
 
     <!-- Portfolio Card for #2 - Tour De Manc -->
@@ -224,9 +226,7 @@
       <br>
       <img src="images/projects/tdm/web.png" class="img-responsive" style="width:75%" alt="Image">
       <br>
-      <a tabindex="0" class="btn btn-md btn-warning" id="test" role="button" data-toggle="popover" data-trigger="focus"
-        title="Tour De Manc" data-content="A project developed for a client, it uses PHP/mySQL for the back-end system and functionality, HTML and CSS for the Front-End
-      webpage and lastly Google Vision's API to read text from images which are uploaded.">Tour De Manc</a>
+      <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#p2">Tour De Manc</button>
     </div>
 
     <!-- PORTFOLIO #3 - Vehicle Database-->
@@ -234,10 +234,7 @@
       <br>
       <img src="images/projects/vDB/web.png" class="img-responsive" style="width:78%" alt="Image">
       <br>
-      <a tabindex="0" class="btn btn-md btn-danger" role="button" data-toggle="popover" data-trigger="focus"
-        title="Vehicle Database"
-        data-content="A vehicle database system developed using Java for the back-end functionality, HTML and CSS for the Front-End.">Vehicle
-        Database</a>
+      <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p3">Vehicle Database</button>
     </div>
 
     <!-- PORTFOLIO #4 - Fishing Game -->
@@ -246,10 +243,7 @@
       <br>
       <img src="images/projects/fishingGame/fishing.png" class="img-responsive" style="width:80%" alt="Image">
       <br>
-      <!-- Button trigger modal -->
-      <a tabindex="0" class="btn btn-md btn-danger" role="button" data-toggle="popover" data-trigger="focus"
-        title="Fishing Game" data-content="A first year University Project developed using purely Java.">Fishing
-        Game</a>
+      <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p4">Fishing Game</button>
     </div>
 
     <!-- PORTFOLIO #5 - JS Maze -->
@@ -258,9 +252,7 @@
       <br>
       <img src="images/projects/jsMaze/maze.png" class="img-responsive" style="width:80%" alt="Image">
       <br>
-      <!-- Button trigger modal -->
-      <a tabindex="0" class="btn btn-md btn-success" role="button" data-toggle="popover" data-trigger="focus"
-        title="Maze Game" data-content="A second year dungeon game developed using purely JavaScript.">Maze Game</a>
+      <button type="button" class="btn btn-md btn-success" data-toggle="modal" data-target="#p5">Maze Game</button>
     </div>
 
     <!-- PORTFOLIO #6 - Survey Website -->
@@ -269,11 +261,7 @@
       <br>
       <img src="images/projects/surveyWebsite/surveyWebsite.png" class="img-responsive" style="width:80%" alt="Image">
       <br>
-      <!-- Button trigger modal -->
-      <a tabindex="0" class="btn btn-md btn-warning" role="button" data-toggle="popover" data-trigger="focus"
-        title="Survey Website"
-        data-content="A survey website developed using purely PHP, allows users to make accounts, choose questions, formulate results etc.">Survey
-        Website</a>
+      <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#p6">Survey Wesbite</button>
     </div>
 
     <!-- PORTFOLIO #7 - A whole new world -->
@@ -282,11 +270,8 @@
       <br>
       <img src="images/projects/anewHome/anewHome.png" class="img-responsive" style="width:92%" alt="Image">
       <br>
-      <!-- Button trigger modal -->
-      <a tabindex="0" class="btn btn-md btn-danger" role="button" data-toggle="popover" data-trigger="focus"
-        title="Hackathon Game"
-        data-content="A game made at a hackathon which travels through three levels, each being the hometown of the creators, avoid the obstacles!">A
-        New Home</a>
+      <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p7">A New Home</button>
+
     </div>
 
 
@@ -381,6 +366,178 @@
     <p id="footer">Copyright © Jacob Edwards 2019</p>
   </div>
 
+  <!-- Portfolio Content-->
+
+  <!--p1 - Android Vehicle App-->
+  <div class="modal fade" id="p1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p1">Android Vehicle Database</h3>
+        </div>
+        <div class="modal-body">
+          An Android Mobile Application which acts as a database for Vehicles which can be stored and modified.
+
+          <div class="text-center">
+             <!--<a href="#"> --> 
+                <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+              </a>
+              <h5>Project is still under submission and thus is not live due to possible plagarism, email me for a direct link to the project.</h5>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--p2 - Tour De Manc-->
+  <div class="modal fade" id="p2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p2">Tour De Manc</h3>
+        </div>
+        <div class="modal-body">
+          A project developed for a client, it uses PHP/mySQL for the back-end system and functionality, HTML and CSS
+          for the Front-End
+          webpage and lastly Google Vision's API to read text from images which are uploaded.
+
+          <div class="text-center">
+              <a href="https://github.com/jiedwards/CyclingImgRecognition">
+                <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+              </a>
+              <h5>Project Repository</h5>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--p3 - V-DB-->
+  <div class="modal fade" id="p3">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p3">Vehicle Database</h3>
+        </div>
+        <div class="modal-body">
+          A vehicle database system developed using Java for the back-end functionality, HTML and CSS for the Front-End.
+
+          <div class="text-center">
+              <a href="https://github.com/jiedwards/JavaV-DB">
+                <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+              </a>
+              <h5>Project Repository</h5>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--p4 - Fishing Game-->
+  <div class="modal fade" id="p4">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p4">Fishing Game</h3>
+        </div>
+        <div class="modal-body">
+            A first year University Project developed using purely Java.
+
+            <div class="text-center">
+                <a href="https://github.com/jiedwards/goFish">
+                  <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+                </a>
+                <h5>Project Repository</h5>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--p5 - Maze Game-->
+  <div class="modal fade" id="p5">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p5">Maze Game</h3>
+        </div>
+        <div class="modal-body">
+            A second year dungeon game developed using purely JavaScript.
+
+            <div class="text-center">
+                <!--<a href="#"> --> 
+                   <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+                 </a>
+                 <h5>Project is still under submission and thus is not live due to possible plagarism, email me for a direct link to the project.</h5>
+               </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--p6 - Survey Website-->
+  <div class="modal fade" id="p6">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p6">Survey Website</h3>
+        </div>
+        <div class="modal-body">
+            A survey website developed using purely PHP, allows users to make accounts, choose questions, formulate results etc.
+
+            <div class="text-center">
+                <a href="https://github.com/jiedwards/surveyWebsite">
+                  <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+                </a>
+                <h5>Project Repository</h5>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--p7 - A New Home-->
+  <div class="modal fade" id="p7">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p7">A New Home</h3>
+        </div>
+        <div class="modal-body">
+            A game made at a hackathon which travels through three levels, each being the hometown of the creators, avoid the obstacles!
+
+            <div class="text-center">
+                <a href="https://github.com/jiedwards/anewhome">
+                  <img border="0" alt="GitHub Repository" src="images/github.svg" width="70px" height="70px">
+                </a>
+                <h5>Project Repository</h5>
+              </div>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
