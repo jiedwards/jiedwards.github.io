@@ -17,6 +17,10 @@ li a:hover {
   background-color: #001538;
 }
 
+h3 {
+  text-align: center;
+}
+
 #hamburger {
   display: inline-block;
   position: absolute;
@@ -222,10 +226,6 @@ body {
   50% {
     border-color: green
   }
-}
-
-.popover {
-  width: 200px;
 }
 
 #java,
