@@ -231,7 +231,8 @@ body {
 #java,
 #php,
 #js,
-#mobile {
+#mobile,
+#multiple {
   background-color: #F2F2F2;
   border-radius: 10px;
   margin-left: 3%;
@@ -247,7 +248,8 @@ body {
   #java,
   #php,
   #js,
-  #mobile {
+  #mobile,
+  #multiple {
     margin-top: 2%;
     margin-bottom: 4%;
     padding-bottom: 2%;

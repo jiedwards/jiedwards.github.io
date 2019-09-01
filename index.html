@@ -37,7 +37,7 @@
           <li class="nav-item"><a class="nav-link" href="#portfolioHeader">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
         </ul>
       </div>
     </div>
@@ -71,7 +71,7 @@
       <img border="0" alt="Jacob Edwards LinkedIn" src="images/github.svg" width="65px" height="65px">
     </a>
 
-    <a href="Internship_CV.pdf">
+    <a href="Summer Internship CV (Jacob Edwards).pdf">
       <img border="0" alt="Jacob Edwards LinkedIn" src="images/cv.png" width="65px" height="65px">
     </a>
   </div>
@@ -102,9 +102,10 @@
             <li><b>Placement secured at Boohoo as a Backend Software Developer. Takes place from June 2019 - June 2020.
                 ✓</b></li>
           </ul>
-          <li>Complete 15 projects for Github</li>
+          <li>Complete 5 projects for Github</li>
           <ul>
             <li><b>Calorie Calculator Mobile App ✓</b></li>
+            <li><b>Byte Fit (In Progress) ✓</b></li>
           </ul>
           <li>Attend five industry related events in 2019:</li>
           <ul>
@@ -141,6 +142,9 @@
           <br>
           <li>Back-end Development: Most recently completed a Java-Based Vehicle Database incorporating SQL, can be
             seen below in the portfolio.</li>
+          <li>Python, Data Structures and Algorithms: Started Developing ByteFit(see project info below) for the purpose of improving my
+            knowledge base in these areas.
+          </li>
         </ul>
       </div>
     </div>
@@ -203,6 +207,7 @@
     <button class="btn btn-warning fil-cat" data-rel="php">PHP</button>
     <button class="btn btn-success fil-cat" data-rel="js">JavaScript</button>
     <button class="btn btn-primary fil-cat" data-rel="mobile">Mobile</button>
+    <button class="btn btn-info fil-cat" data-rel="multiple">Multiple Languages</button>
   </div>
 
 
@@ -287,8 +292,15 @@
 
     </div>
 
+    <!-- PORTFOLIO #9 - ByteFit - Automated Meal Planner -->
 
-
+    <div class="col-sm-4 multiple all" id="multiple">
+        <br>
+        <img src="images/projects/byteFit/home.png" class="img-responsive" style="width:85%" alt="Image">
+        <br>
+        <button type="button" class="btn btn-md btn-info" data-toggle="modal" data-target="#p9">Meal Planner</button>
+  
+      </div>
 
 
   </div>
@@ -300,12 +312,7 @@
     <h3>Entire Github Repository</h3>
   </div>
 
-
-
-
-
   <!-- Values -->
-
 
   <div id="values" class="container-fluid text-center">
     <h3>My Values</h3>
@@ -587,6 +594,38 @@
       </div>
     </div>
   </div>
+
+  <!--p9 - ByteFit Automated Meal Planner-->
+  <div class="modal fade" id="p9">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="p9">Automated Meal Planner</h3>
+          </div>
+          <div class="modal-body">
+            This project is a work-in-progress, it's end goal is to simplify meal planning.
+            At the current moment, a user can register and login to their account, this has been developed with
+            the use of Passport and BCrypt in Node.js. The current user privileges allow a user
+            to add custom foods into the db.  An inner JavaScript application has been built to determine
+            the correct amount of calories for a user based on some details from the user (Mifflin St Jeor Equation is implemented).
+            <br>The next steps for the project are:
+            <li> Implement Python to sort through the data and execute an import of the data into the MongoDB food database.</li>
+            <li> Implement algorithms, logic and GET requests to retrieve the food information in a sensible way.</li>
+            <img src="images/projects/byteFit/home.png" class="img-responsive" style="width:75%" alt="Image">
+  
+            <img src="images/projects/byteFit/login.png" class="img-responsive" style="width:75%" alt="Image">
+  
+            <img src="images/projects/byteFit/calorieCalculator.png" class="img-responsive" style="width:75%" alt="Image">
+
+            This is a private project, contact me if you wish to see the code.
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </body>
 
