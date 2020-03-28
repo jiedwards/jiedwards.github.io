@@ -11,673 +11,509 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-  <link rel="shortcut icon" href="resources/bitmoji.ico" />
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+  <link rel="shortcut icon" href="resources/JE.png" />
   <link href="https://fonts.googleapis.com/css?family=Miriam+Libre|PT+Sans" rel="stylesheet">
   <script type="text/javascript" src="script.js"></script>
-
 </head>
 
-
 <body>
-
-  <nav class="navbar">
+  <nav class="navbar navbar-static-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span id="hamburger" class="navbar-toggler-icon"><img src="resources/hamburger.png" width="50px"
-            height="50px"></span>
-          </button>
-          <a href="index.html"><img src="resources/JE.png" id="navLogo" width="50px" height="50px"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item"><a class="nav-link" href="#whoamI">Who am I?</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skillsContainer">Skills?</a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolioHeader">Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            <!-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> -->
-          </ul>
-        </div>
+          <span id="hamburger" class="navbar-toggler-icon"><img src="resources/hamburger.png" width="35px"
+              height="35px"></span>
+        </button>
       </div>
-    </nav>
-
-    <!-- Beginning header -->
-
-    <div id="header" class="container-fluid header text-center">
-      <img src="resources/meRunning1.png" class="img-circle" alt="Image of Jacob in Running gear" width=250 height=250>
-      <br><br>
-      <div class="typewriter">
-        <h1>JACOB EDWARDS</h1>
-      </div>
-      <hr style="width:30%;">
-
-      <h3>I desire to work on cutting edge projects that will make a difference to many</h3>
-
-      <hr style="width:15%;">
-
-      <div class="container typewriter">
-        <h4>SOFTWARE ENGINEERING STUDENT</h4>
-      </div>
-
-
-      <br>
-      <a href="https://www.linkedin.com/in/jacob-edwards/">
-        <img border="0" alt="Jacob Edwards LinkedIn" src="resources/linkedin.png" width="70px" height="70px">
-      </a>
-
-      <a href="https://github.com/jiedwards">
-        <img border="0" alt="Jacob Edwards LinkedIn" src="resources/github.svg" width="65px" height="65px">
-      </a>
-
-      <a href="Summer Internship CV (Jacob Edwards).pdf">
-        <img border="0" alt="Jacob Edwards LinkedIn" src="resources/cv.png" width="65px" height="65px">
-      </a>
-    </div>
-
-    <!-- Who am I -->
-    <div id="row" class="container-fluid col-md-12 tableHolder pull-center">
-      <div class="container">
-
-        <div id="whoamI" class="container col-sm-5 whoamI">
-          <h3 id="whoamI">Who am I?</h3>
-          <hr style="width:30%;">
-
-          <br>
-          <p>Hi! I’m <b>Jacob Edwards</b>, I am a University student currently undertaking a 12-month placement year as a
-            Backend Developer at <a href="http://www.boohoo.com">Boohoo</a>.
-            I currently have two years' experience in an academic environment. I briefly started coding in my bedroom
-            roughly ten years ago,
-          developing Myspace layout's using HTML and CSS as a hobby.</p>
-          <p>After following a different career path for a short period of time, I'm back developing software and
-            websites with more
-          passion than ever.</p>
-          <br>
-          <h4>My primary goals for 2019 are: </h4>
-          <ul>
-            <li>To undertake a minimum 12-month work placement to experience Software Development in a real-world
-            environment.</li>
-            <ul>
-              <li><b>Placement secured at Boohoo as a Backend Software Developer. Takes place from June 2019 - June 2020.
-              ✓</b></li>
-            </ul>
-            <li>Volunteer to help other people code</li>
-            <ul>
-              <li><b>Began volunteering with Code Club as a mentor to children aged 9-11 to improve their HTML, CSS, JavaScript and Python skills since September 2019 ✓</b></li>
-            </ul>
-            <li>Complete 5 projects for Github</li>
-            <ul>
-              <li><b>Calorie Calculator Mobile App ✓</b></li>
-              <li><b>Byte Fit (In Progress) ✓</b></li>
-              <li><b>Python Tic-Tac-Toe ✓</b></li>
-            </ul>
-            <li>Attend five industry related events in 2019:</li>
-            <ul>
-              <li><b>26th-27th January 2019 - 48 Hour Hackathon - ManMetHacks ✓</b></li>
-              <li><b>8th-12th April 2019 - Barclays Technology Spring Internship ✓</b></li>
-              <li><b>11th August 2019 - Code Up Manchester ✓</b></li>
-              <li><b>3rd October 2019 - Sky Software Engineering Day ✓</b></li>
-            </ul>
-          </ul>
-        </div>
-        <div class="container images col-sm-7 ">
-          <img class="pull-center" id="jacobhack" src="resources/jacobBarclays1.png"
-          style="width:60%; margin-left:30%;"></img>
-
-        </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item"><a class="nav-link" href="#portfolioHeader">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
       </div>
     </div>
-
-    <!-- Knowledge Base -->
-
-    <div id="skillsContainer" class="container-fluid skillsContainer col-md-12">
-      <br>
-      <div id="interests" class="container-fluid col-sm-4">
-        <h3 id="interests">Interests</h3>
-        <hr style="width:50%;">
-
-        <br>
-        <div class="row">
-
-          <ul>
-            <li>Mobile App Development: Undertaking an Android Development Course on Lynda, 
-            also pursuing the opportunity to spend time in the Mobile team during my placement year.</li>
-            <br>
-            <li>Web Development: Currently working on this portfolio as a Front-End Web Development project.</li>
-            <br>
-            <li>Back-end Development: Most recently completed a Java-Based Vehicle Database incorporating SQL, can be
-            seen below in the portfolio.</li>
-            <li>Python, Data Structures and Algorithms: Started Developing ByteFit (see project info below) for the purpose of improving my knowledge base in these areas, I am also in the process of completing this <a href=https://www.udemy.com/complete-python-bootcamp/>Udemy course</a>.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div id="skills" class="container col-sm-7 text-center">
-
-        <h3>Skill-set</h3>
-        <hr style="width:30%;">
-        <br>
+  </nav>
 
 
-        <div class="col-sm-12 progresslife pull-center">
+  <!-- Beginning header -->
 
-          <label class="pull-center" style="color:white;" for="Java">Java</label>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-striped" id="Java" role="progressbar" data-transitiongoal="70"></div>
-          </div>
-          <label class="pull-center" style="height:30px; color:white;" for="HTML">HTML</label>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-success" id="HTML" role="progressbar" data-transitiongoal="70"></div>
-          </div>
-          <label class="pull-center" style="color:white;" for="CSS">CSS <br></label>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-info" id="CSS" role="progressbar" data-transitiongoal="60"></div>
-          </div>
-          <label class="pull-center" style="color:white;" for="JavaScript">JavaScript</label>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-warning" id="JavaScript" role="progressbar" data-transitiongoal="60">
-            </div>
-          </div>
-          <label class="pull-center" style="color:white;" for="PHP">PHP</label>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-danger" id="PHP" role="progressbar" data-transitiongoal="50"></div>
-          </div>
-          <label class="pull-center" style="color:white;" for="Python">Python</label>
-          <div class="progress progress-striped active">
-            <div class="progress-bar progress-bar-danger" id="Python" role="progressbar" data-transitiongoal="60"></div>
-          </div>
-        </div>
-      </div>
-
-      <div id="hobbies" class="col-lg-12" style="width:100%;">
-        <img id="bjj" src="resources/bjj_icon.png" style="width:100px;"></img>
-        <label for=>Brazilian Jiu-Jitsu</label>
-        <img id="hacakthon" src="resources/hackathon.svg" style="width:100px;"></img>
-        <label>Hackathons</label>
-        <img id="running" src="resources/running.png" style="width:100px;"></img>
-        <label for="running" class="pull-center">Running</label>
-      </div>
-    </div>
-
-
-    <!-- Portfolio -->
-    <hr class="portfolioHeader" id="portfolioHeader" style="width:30%;">
-    <h3 class="text-center">Portfolio</h3>
-
+  <div id="header" class="container-fluid header text-center">
+    <img src="resources/meRunning1.png" class="img-rounded" alt="Image of Jacob in Running gear" width=250 height=250>
+    <br><br>
+      <h1>JACOB EDWARDS</h1>
     <hr style="width:30%;">
 
-    <h4 class="text-center">Filter by</h4>
+    <h3>I desire to work on cutting edge projects that will make a difference to many</h3>
+    <br>
+    <h4>Software Developer Intern at <a href="http://www.boohoo.com">Boohoo</a></h4>
+    <h4>Volunteer programming mentor at <a href="https://codeclub.org/en/">Code Club</a></h4>
+    <h4>Software Engineering Student at <a href="https://www2.mmu.ac.uk/study/undergraduate/course/bsc-software-engineering/">
+      Manchester Metropolitan University</a></h4>
 
-    <div class="toolbar mb2 mt2 text-center">
-      <button class="btn btn-info fil-cat" href="" data-rel="all">All</button>
-      <button class="btn btn-danger fil-cat" data-rel="java">Java</button>
-      <button class="btn btn-warning fil-cat" data-rel="php">PHP</button>
-      <button class="btn btn-success fil-cat" data-rel="js">JavaScript</button>
-      <button class="btn btn-primary fil-cat" data-rel="mobile">Mobile</button>
-      <button class="btn btn-secondary fil-cat" data-rel="python">Python</button>
-      <button class="btn btn-info fil-cat" data-rel="multiple">Multiple Languages</button>
+    <br>
+    <a href="https://www.linkedin.com/in/jacob-edwards/">
+      <img border="0" alt="Jacob Edwards LinkedIn" src="resources/linkedin.png" width="70px" height="70px">
+    </a>
+
+    <a href="https://github.com/jiedwards">
+      <img border="0" alt="Jacob Edwards LinkedIn" src="resources/github.svg" width="65px" height="65px">
+    </a>
+
+    <a href="Summer Internship CV (Jacob Edwards).pdf">
+      <img border="0" alt="Jacob Edwards LinkedIn" src="resources/cv.png" width="65px" height="65px">
+    </a>
+  </div>
+
+  <!-- Portfolio -->
+  <hr class="portfolioHeader" id="portfolioHeader" style="width:30%;">
+  <h3 class="text-center">Portfolio</h3>
+
+  <hr style="width:30%;">
+
+  <h4 class="text-center">Filter by</h4>
+
+  <div class="toolbar mb2 mt2 text-center">
+    <button class="btn btn-info fil-cat" href="" data-rel="all">All</button>
+    <button class="btn btn-danger fil-cat" data-rel="java">Java</button>
+    <button class="btn btn-warning fil-cat" data-rel="php">PHP</button>
+    <button class="btn btn-success fil-cat" data-rel="js">JavaScript</button>
+    <button class="btn btn-primary fil-cat" data-rel="mobile">Mobile</button>
+    <button class="btn btn-secondary fil-cat" data-rel="python">Python</button>
+    <button class="btn btn-info fil-cat" data-rel="multiple">Multiple Languages</button>
+  </div>
+
+
+  <div id="portfolio" class="container text-center">
+
+    <!-- First row of portfolio -->
+
+    <!-- PORTFOLIO #1 - App Vehicle Database-->
+    <div class="col-sm-4 mobile all" id="mobile">
+      <br>
+      <img src="resources/projects/vApp/code.png" class="img-responsive" style="width:83%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#p1">
+        Android Vehicle Database
+      </button>
     </div>
 
+    <!-- Portfolio Card for #2 - Tour De Manc -->
+    <div class="col-sm-4 php all" id="php">
+      <br>
+      <img src="resources/projects/tdm/web.png" class="img-responsive" style="width:75%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#p2">Tour De Manc</button>
+    </div>
 
-    <div id="portfolio" class="container text-center">
-
-      <!-- First row of portfolio -->
-
-      <!-- PORTFOLIO #1 - App Vehicle Database-->
-      <div class="col-sm-4 mobile all" id="mobile">
-        <br>
-        <img src="resources/projects/vApp/code.png" class="img-responsive" style="width:83%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#p1">
-          Android Vehicle Database
-        </button>
-
-
-      </div>
-
-      <!-- Portfolio Card for #2 - Tour De Manc -->
-      <div class="col-sm-4 php all" id="php">
-        <br>
-        <img src="resources/projects/tdm/web.png" class="img-responsive" style="width:75%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#p2">Tour De Manc</button>
-      </div>
-
-      <!-- PORTFOLIO #3 - Vehicle Database-->
-      <div class="col-sm-4 java all" id="java">
-        <br>
-        <img src="resources/projects/vDB/web.png" class="img-responsive" style="width:78%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p3">Vehicle
+    <!-- PORTFOLIO #3 - Vehicle Database-->
+    <div class="col-sm-4 java all" id="java">
+      <br>
+      <img src="resources/projects/vDB/web.png" class="img-responsive" style="width:78%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p3">Vehicle
         Database</button>
-      </div>
+    </div>
 
-      <!-- PORTFOLIO #4 - Fishing Game -->
+    <!-- PORTFOLIO #4 - Fishing Game -->
 
-      <div class="col-sm-4 java all" id="java">
-        <br>
-        <img src="resources/projects/fishingGame/fishing.png" class="img-responsive" style="width:80%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p4">Fishing Game</button>
-      </div>
+    <div class="col-sm-4 java all" id="java">
+      <br>
+      <img src="resources/projects/fishingGame/fishing.png" class="img-responsive" style="width:80%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p4">Fishing Game</button>
+    </div>
 
-      <!-- PORTFOLIO #5 - JS Maze -->
+    <!-- PORTFOLIO #5 - JS Maze -->
 
-      <div class="col-sm-4 js all" id="js">
-        <br>
-        <img src="resources/projects/jsMaze/maze.png" class="img-responsive" style="width:80%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-success" data-toggle="modal" data-target="#p5">Maze Game</button>
-      </div>
+    <div class="col-sm-4 js all" id="js">
+      <br>
+      <img src="resources/projects/jsMaze/maze.png" class="img-responsive" style="width:80%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-success" data-toggle="modal" data-target="#p5">Maze Game</button>
+    </div>
 
-      <!-- PORTFOLIO #6 - Survey Website -->
+    <!-- PORTFOLIO #6 - Survey Website -->
 
-      <div class="col-sm-4 php all" id="php">
-        <br>
-        <img src="resources/projects/surveyWebsite/surveyWebsite.png" class="img-responsive" style="width:80%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#p6">Survey Wesbite</button>
-      </div>
+    <div class="col-sm-4 php all" id="php">
+      <br>
+      <img src="resources/projects/surveyWebsite/surveyWebsite.png" class="img-responsive" style="width:80%"
+        alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-warning" data-toggle="modal" data-target="#p6">Survey Wesbite</button>
+    </div>
 
-      <!-- PORTFOLIO #7 - A whole new world -->
+    <!-- PORTFOLIO #7 - A whole new world -->
 
-      <div class="col-sm-4 java all" id="java">
-        <br>
-        <img src="resources/projects/anewHome/anewHome.png" class="img-responsive" style="width:92%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p7">A New Home</button>
+    <div class="col-sm-4 java all" id="java">
+      <br>
+      <img src="resources/projects/anewHome/anewHome.png" class="img-responsive" style="width:92%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-danger" data-toggle="modal" data-target="#p7">A New Home</button>
 
-      </div>
+    </div>
 
-      <!-- PORTFOLIO #8 - A calorie controlling app -->
+    <!-- PORTFOLIO #8 - A calorie controlling app -->
 
-      <div class="col-sm-4 mobile all" id="mobile">
-        <br>
-        <img src="resources/projects/calApp/cal1.png" class="img-responsive" style="width:23%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#p8">Calorie
+    <div class="col-sm-4 mobile all" id="mobile">
+      <br>
+      <img src="resources/projects/calApp/cal1.png" class="img-responsive" style="width:23%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#p8">Calorie
         Controller</button>
 
-      </div>
+    </div>
 
-      <!-- PORTFOLIO #9 - ByteFit - Automated Meal Planner -->
+    <!-- PORTFOLIO #9 - ByteFit - Automated Meal Planner -->
 
-      <div class="col-sm-4 multiple all" id="multiple">
-        <br>
-        <img src="resources/projects/byteFit/home.png" class="img-responsive" style="width:85%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-info" data-toggle="modal" data-target="#p9">Meal Planner</button>
-
-      </div>
-
-      <!-- PORTFOLIO #10 - Tic Tac Toe - Python -->
-
-      <div class="col-sm-4 python all" id="python">
-        <br>
-        <img src="resources/projects/ticTacToe/tic-tac-toe.jpg" class="img-responsive" style="width:85%" alt="Image">
-        <br>
-        <button type="button" class="btn btn-md btn-secondary" data-toggle="modal" data-target="#p10">Tic-Tac-Toe</button>
-
-      </div>
-
+    <div class="col-sm-4 multiple all" id="multiple">
+      <br>
+      <img src="resources/projects/byteFit/home.png" class="img-responsive" style="width:85%" alt="Image">
+      <br>
+      <button type="button" class="btn btn-md btn-info" data-toggle="modal" data-target="#p9">Meal Planner</button>
 
     </div>
 
-    <div class="text-center">
-      <a href="https://github.com/jiedwards">
-        <img border="0" alt="Jacob Edwards LinkedIn" src="resources/github.svg" width="70px" height="70px">
-      </a>
-      <h3>Entire Github Repository</h3>
-    </div>
+    <!-- PORTFOLIO #10 - Tic Tac Toe - Python -->
 
-    <!-- Values -->
-
-    <div id="values" class="container-fluid text-center">
-      <h3>My Values</h3>
-      <hr style="width:30%;">
-
-      <p>I believe in</p>
+    <div class="col-sm-4 python all" id="python">
       <br>
-      <div class="row">
-        <div class="col-sm-4">
-          <span class="glyphicon glyphicon-fire"></span>
-          <h4>PASSION</h4>
-        </div>
-        <div class="col-sm-4">
-          <span class="glyphicon glyphicon-time"></span>
-          <h4>EFFICIENCY</h4>
-        </div>
-        <div class="col-sm-4">
-          <span class="glyphicon glyphicon-wrench"></span>
-          <h4>HARD WORK</h4>
-        </div>
-      </div>
+      <img src="resources/projects/ticTacToe/tic-tac-toe.jpg" class="img-responsive" style="width:85%" alt="Image">
       <br>
-
+      <button type="button" class="btn btn-md btn-secondary" data-toggle="modal" data-target="#p10">Tic-Tac-Toe</button>
 
     </div>
+  </div>
 
-    <div id="contact" class="container-fluid text-center">
-      <h3>Contact</h3>
-      <hr style="width:30%;">
+  <div class="text-center">
+    <a href="https://github.com/jiedwards">
+      <img border="0" alt="Jacob Edwards LinkedIn" src="resources/github.svg" width="70px" height="70px">
+    </a>
+    <h3>Entire Github Repository</h3>
+  </div>
 
+  <div id="contact" class="container-fluid text-center">
+    <h3>Contact</h3>
+    <hr style="width:30%;">
 
-      <!-- Container (Contact Section) -->
-      <br>
-      <div class="row">
-        <div class="col-sm-12 info text-center">
-          <img src="resources/bitmoji.png" class="img-circle" alt="Image of Jacob in Running gear" width=160 height=120>
-          <br><br>
-          <p>I'm always open to meet new people and work on cool projects.</p>
-          <p>Want to have a chat, or work together on something?</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span> Manchester, United Kingdom</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> jacobedwards1995@hotmail.co.uk</p>
-        </div>
+    <!-- Container (Contact Section) -->
+    <br>
+    <div class="row">
+      <div class="col-sm-12 info text-center">
+        <img src="resources/bitmoji.png" class="img-circle" alt="Image of Jacob in Running gear" width=160 height=120>
+        <br><br>
+        <p>I'm always open to meet new people and work on cool projects.</p>
+        <p>Want to have a chat, or work together on something?</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Manchester, United Kingdom</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> jacobedwards1995@hotmail.co.uk</p>
       </div>
-      <br>
+    </div>
+    <br>
 
-      <div class="row">
-        <div class="form">
-          <form action="mailto:jacobedwards1995@hotmail.co.uk" method="post" enctype="text/plain">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Enter your name" type="text" required>
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Enter your email address" type="email"
+    <div class="row">
+      <div class="form">
+        <form action="mailto:jacobedwards1995@hotmail.co.uk" method="post" enctype="text/plain">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Enter your name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Enter your email address" type="email"
               required>
-            </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Enter your message"
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Enter your message"
             rows="5"></textarea><br>
-            <div class="col-sm-12 form-group">
-              <button class="btn btn-success pull-right" type="submit">Send</button>
-              <button class="btn btn-danger pull-right" type="reset">Reset</button>
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-success pull-right" type="submit">Send</button>
+            <button class="btn btn-danger pull-right" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 
-            </div>
-          </form>
+  <!-- Footer section of the webpage containing the copyright information.-->
+  <div class="container col-sm-12 footer text-center">
+    <br>
+    <p id="footer">Copyright © Jacob Edwards 2019</p>
+  </div>
+
+  <!-- Portfolio Content-->
+
+  <!--p1 - Android Vehicle App-->
+  <div class="modal fade" id="p1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p1">Android Vehicle Database</h3>
+        </div>
+        <div class="modal-body">
+          An Android Mobile Application which acts as a database for Vehicles which can be stored and modified.
+
+          <div class="text-center">
+            <!--<a href="#"> -->
+            <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Email me for a direct link to the project.</h5>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer section of the webpage containing the copyright information.-->
-    <div class="container col-sm-12 footer text-center">
-      <br>
-      <p id="footer">Copyright © Jacob Edwards 2019</p>
-    </div>
-
-    <!-- Portfolio Content-->
-
-    <!--p1 - Android Vehicle App-->
-    <div class="modal fade" id="p1">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p1">Android Vehicle Database</h3>
-          </div>
-          <div class="modal-body">
-            An Android Mobile Application which acts as a database for Vehicles which can be stored and modified.
-
-            <div class="text-center">
-              <!--<a href="#"> -->
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Email me for a direct link to the project.</h5>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+  <!--p2 - Tour De Manc-->
+  <div class="modal fade" id="p2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p2">Tour De Manc</h3>
         </div>
-      </div>
-    </div>
+        <div class="modal-body">
+          A project developed for a client, it uses PHP/mySQL for the back-end system and functionality, HTML and CSS
+          for the Front-End
+          webpage and lastly Google Vision's API to read text from images which are uploaded.
 
-    <!--p2 - Tour De Manc-->
-    <div class="modal fade" id="p2">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p2">Tour De Manc</h3>
-          </div>
-          <div class="modal-body">
-            A project developed for a client, it uses PHP/mySQL for the back-end system and functionality, HTML and CSS
-            for the Front-End
-            webpage and lastly Google Vision's API to read text from images which are uploaded.
-
-            <video width="100%" height="100%" controls>
-              <source src="resources/videos/TDM.mp4" type="video/mp4">
+          <video width="100%" height="100%" controls>
+            <source src="resources/videos/TDM.mp4" type="video/mp4">
             Your browser does not support the video tag.
-            </video>
+          </video>
 
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/CyclingImgRecognition">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/CyclingImgRecognition">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p3 - V-DB-->
-    <div class="modal fade" id="p3">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p3">Vehicle Database</h3>
-          </div>
-          <div class="modal-body">
-            A vehicle database system developed using Java for the back-end functionality, HTML and CSS for the Front-End.
+  <!--p3 - V-DB-->
+  <div class="modal fade" id="p3">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p3">Vehicle Database</h3>
+        </div>
+        <div class="modal-body">
+          A vehicle database system developed using Java for the back-end functionality, HTML and CSS for the Front-End.
 
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/JavaV-DB">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/JavaV-DB">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p4 - Fishing Game-->
-    <div class="modal fade" id="p4">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p4">Fishing Game</h3>
-          </div>
-          <div class="modal-body">
-            A first year University Project developed using purely Java.
+  <!--p4 - Fishing Game-->
+  <div class="modal fade" id="p4">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p4">Fishing Game</h3>
+        </div>
+        <div class="modal-body">
+          A first year University Project developed using purely Java.
 
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/goFish">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/goFish">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p5 - Maze Game-->
-    <div class="modal fade" id="p5">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p5">Maze Game</h3>
-          </div>
-          <div class="modal-body">
-            A second year dungeon game developed using purely JavaScript.
+  <!--p5 - Maze Game-->
+  <div class="modal fade" id="p5">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p5">Maze Game</h3>
+        </div>
+        <div class="modal-body">
+          A second year dungeon game developed using purely JavaScript.
 
-            <div class="text-center">
-              <!--<a href="#"> -->
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project is still under submission and thus is not live due to possible plagarism, email me for a direct
+          <div class="text-center">
+            <!--<a href="#"> -->
+            <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project is still under submission and thus is not live due to possible plagarism, email me for a direct
               link to the project.</h5>
-            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p6 - Survey Website-->
-    <div class="modal fade" id="p6">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p6">Survey Website</h3>
-          </div>
-          <div class="modal-body">
-            A survey website developed using purely PHP, allows users to make accounts, choose questions, formulate
-            results etc.
+  <!--p6 - Survey Website-->
+  <div class="modal fade" id="p6">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p6">Survey Website</h3>
+        </div>
+        <div class="modal-body">
+          A survey website developed using purely PHP, allows users to make accounts, choose questions, formulate
+          results etc.
 
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/surveyWebsite">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/surveyWebsite">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p7 - A New Home-->
-    <div class="modal fade" id="p7">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p7">A New Home</h3>
-          </div>
-          <div class="modal-body">
-            A game made at a hackathon which travels through three levels, each being the hometown of the creators, avoid
-            the obstacles!
+  <!--p7 - A New Home-->
+  <div class="modal fade" id="p7">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p7">A New Home</h3>
+        </div>
+        <div class="modal-body">
+          A game made at a hackathon which travels through three levels, each being the hometown of the creators, avoid
+          the obstacles!
 
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/anewhome">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/anewhome">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
+          </div>
 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p8 - Calorie Controller-->
-    <div class="modal fade" id="p8">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p8">Calorie Controller</h3>
+  <!--p8 - Calorie Controller-->
+  <div class="modal fade" id="p8">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p8">Calorie Controller</h3>
+        </div>
+        <div class="modal-body">
+          A calorie controlling app designed to allow users to register an account and log in, after the user has
+          entered their details
+          it will automatically generate a maintenence calorie intake amount, as well as a macronutrient intake.
+
+          <img src="resources/projects/calApp/cal2.png" class="img-responsive" style="width:45%" alt="Image">
+
+          <img src="resources/projects/calApp/cal3.png" class="img-responsive" style="width:45%" alt="Image">
+
+
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/calorieControl">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
           </div>
-          <div class="modal-body">
-            A calorie controlling app designed to allow users to register an account and log in, after the user has
-            entered their details
-            it will automatically generate a maintenence calorie intake amount, as well as a macronutrient intake.
 
-            <img src="resources/projects/calApp/cal2.png" class="img-responsive" style="width:45%" alt="Image">
-
-            <img src="resources/projects/calApp/cal3.png" class="img-responsive" style="width:45%" alt="Image">
-
-
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/calorieControl">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p9 - ByteFit Automated Meal Planner-->
-    <div class="modal fade" id="p9">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p9">Automated Meal Planner</h3>
-          </div>
-          <div class="modal-body">
-            This project is a work-in-progress, it's end goal is to simplify meal planning.
-            At the current moment, a user can register and login to their account, this has been developed with
-            the use of Passport and BCrypt in Node.js. The current user privileges allow a user
-            to add custom foods into the db.  An inner JavaScript application has been built to determine
-            the correct amount of calories for a user based on some details from the user (Mifflin St Jeor Equation is implemented).
-            <br>The next steps for the project are:
-            <li> Implement Python to sort through the data and execute an import of the data into the MongoDB food database.</li>
-            <li> Implement algorithms, logic and GET requests to retrieve the food information in a sensible way.</li>
-            <img src="resources/projects/byteFit/home.png" class="img-responsive" style="width:75%" alt="Image">
+  <!--p9 - ByteFit Automated Meal Planner-->
+  <div class="modal fade" id="p9">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p9">Automated Meal Planner</h3>
+        </div>
+        <div class="modal-body">
+          This project is a work-in-progress, it's end goal is to simplify meal planning.
+          At the current moment, a user can register and login to their account, this has been developed with
+          the use of Passport and BCrypt in Node.js. The current user privileges allow a user
+          to add custom foods into the db. An inner JavaScript application has been built to determine
+          the correct amount of calories for a user based on some details from the user (Mifflin St Jeor Equation is
+          implemented).
+          <br>The next steps for the project are:
+          <li> Implement Python to sort through the data and execute an import of the data into the MongoDB food
+            database.</li>
+          <li> Implement algorithms, logic and GET requests to retrieve the food information in a sensible way.</li>
+          <img src="resources/projects/byteFit/home.png" class="img-responsive" style="width:75%" alt="Image">
 
-            <img src="resources/projects/byteFit/login.png" class="img-responsive" style="width:75%" alt="Image">
+          <img src="resources/projects/byteFit/login.png" class="img-responsive" style="width:75%" alt="Image">
 
-            <img src="resources/projects/byteFit/calorieCalculator.png" class="img-responsive" style="width:75%" alt="Image">
+          <img src="resources/projects/byteFit/calorieCalculator.png" class="img-responsive" style="width:75%"
+            alt="Image">
 
-            This is a private project, contact me if you wish to see the code.
+          This is a private project, contact me if you wish to see the code.
 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--p10 - Tic-Tac-Toe -Python -->
-    <div class="modal fade" id="p10">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="p10">Tic Tac Toe</h3>
-          </div>
-          <div class="modal-body">
-            <p>This project has been developed as part of my aim to improve become proficient at Python. Tic-Tac-Toe is a game played by two opponents with the end of goal of achieving a particular pattern accross a game board.</p>
-            <img src="resources/projects/ticTacToe/gameInProgress.jpg" class="img-responsive" style="width:75%" alt="Image">
+  <!--p10 - Tic-Tac-Toe -Python -->
+  <div class="modal fade" id="p10">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="p10">Tic Tac Toe</h3>
+        </div>
+        <div class="modal-body">
+          <p>This project has been developed as part of my aim to improve become proficient at Python. Tic-Tac-Toe is a
+            game played by two opponents with the end of goal of achieving a particular pattern accross a game board.
+          </p>
+          <img src="resources/projects/ticTacToe/gameInProgress.jpg" class="img-responsive" style="width:75%"
+            alt="Image">
 
-            <img src="resources/projects/ticTacToe/tic-tac-toe.jpg" class="img-responsive" style="width:75%" alt="Image">
+          <img src="resources/projects/ticTacToe/tic-tac-toe.jpg" class="img-responsive" style="width:75%" alt="Image">
 
-            <div class="text-center">
-              <a href="https://github.com/jiedwards/py_tic-tac-toe">
-                <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
-              </a>
-              <h5>Project Repository</h5>
-            </div>
+          <div class="text-center">
+            <a href="https://github.com/jiedwards/py_tic-tac-toe">
+              <img border="0" alt="GitHub Repository" src="resources/github.svg" width="70px" height="70px">
+            </a>
+            <h5>Project Repository</h5>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
+  </div>
 
-  </body>
-
-  </html>
+</body>
+</html>

@@ -1,83 +1,35 @@
-.navbar {
+body {
+  color: #001538;
   background-color: #001538;
   font-family: 'PT Sans', sans-serif;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  font-size: 12px;
-  letter-spacing: 2px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #001538;
+  letter-spacing: 3px;
   margin-bottom: 0 !important;
 }
 
-#hobbies {
-  text-align: center;
+.nav-link {
+  color: #3aafa9;
+  font-size: 24px;
+  font-family: 'PT Sans', sans-serif;
 }
 
-li a:hover {
-  color: #3aafa9 !important;
-  background-color: #001538;
-}
-
-h3 {
-  text-align: center;
-}
-
-#hamburger {
-  display: inline-block;
-  position: absolute;
-  top: -60%;
-  right: -70%;
-}
-
-#navLogo {
-  display: inline-block;
-  position: absolute;
-  top: 15%;
-}
-
-li a {
-  color: #3aafa9 !important;
-  background-color: #001538;
-}
-
-h3#whoamI,
-h3#interests {
-  text-align: center;
-  font-family: 'Miriam Libre', sans-serif;
-
+.nav-link:hover {
+  color: #ffffff;
+  background-color: #001538 !important;
 }
 
 .header {
   background-color: #3aafa9;
-  /* Pale Red */
   color: #ffffff;
   font-family: 'PT Sans', sans-serif;
 }
 
-.tableHolder {
-  background-color: white;
-  color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-}
-
-.skillsContainer {
-  background-color: #3aafa9;
-  color: white;
-  display: inline-block;
-  text-align: left;
-  font-family: 'Miriam Libre', sans-serif;
-
-}
-
 p {
   font-size: 20px;
-  font-family: 'PT Sans', sans-serif;
-}
-
-li {
-  font-size: 18px;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -88,43 +40,21 @@ img {
   margin-left: auto;
 }
 
-
-#skills {
-  margin-top: -20px;
-  background-color: #3aafa9;
-  color: white;
-  text-align: center;
-}
-
-#hobbies {
-  display: inline;
-}
-
-#interests {
-  margin-top: -24px;
-  background-color: #3aafa9;
-  color: white;
-  text-align: left;
-  margin-left: 8%;
-
-}
-
 #portfolio {
   background-color: white;
   color: black;
 }
 
-#values {
-  padding-top: 50px;
+#contact {
   background-color: #3aafa9;
   color: white;
   font-family: 'Miriam Libre', sans-serif;
 }
 
-#contact {
-  background-color: white;
-  color: black;
-  font-family: 'Miriam Libre', sans-serif;
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 p#footer {
@@ -136,106 +66,16 @@ p#footer {
   margin-left: 20%;
 }
 
-.footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
 .container-fluid {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-#PHP {
-  background-color: red;
-}
-
-#Python {
-  background-color: brown;
-}
-
-#Java {
-  background-color: green;
-}
-
-#JavaScript {
-  background-color: purple;
-}
-
-#CSS {
-  background-color: orange;
-}
-
-#HTML {
-  background-color: blue;
-}
-
-span.icon:before {
-  font-family: FontAwesome;
-  content: "\f015";
-}
-
-.glyphicon {
-  font-size: 40px;
-}
-
-body {
-  color: #3aafa9;
-  background-color: #3aafa9;
-  font-family: 'Miriam Libre', sans-serif;
-}
-
-.typewriter h1 {
-  color: #fff;
-  font-family: 'Miriam Libre', sans-serif;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 1px;
-  animation:
-    typing 4.5s steps(30, end),
-    blink-caret .5s step-end 9;
-}
-
-.typewriter h4 {
-  color: #fff;
-  font-family: 'Miriam Libre', sans-serif;
-  overflow: hidden;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 1px;
-  animation:
-    typing 4.5s steps(30, end),
-    blink-caret .5s step-end 9;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-
-  to {
-    width: 100%
-  }
-}
-
-@keyframes blink-caret {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: green
-  }
 }
 
 #java,
 #php,
 #js,
 #mobile,
+#python,
 #multiple {
   background-color: #F2F2F2;
   border-radius: 10px;
@@ -253,12 +93,24 @@ body {
   #php,
   #js,
   #mobile,
+  #python,
   #multiple {
     margin-top: 2%;
     margin-bottom: 4%;
     padding-bottom: 2%;
     margin-left: -1%;
     max-width: 100%;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  #hamburger {
+    display: inline-block;
+    position: absolute;
+    top: -30%;
+    right: -50%;
   }
 
 }
