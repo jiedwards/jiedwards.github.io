@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background-color: #00332d;
+  background-color: #00665a;
   letter-spacing: 3px;
   margin-bottom: 0 !important;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  background-color: #004d44;
+  background-color: #00b39e;
   color: #ffffff;
   font-family: 'PT Sans', sans-serif;
 }
@@ -47,7 +47,7 @@ img {
 }
 
 #contact {
-  background-color: #004d44;
+  background-color: #00b39e;
   color: white;
   font-family: 'Miriam Libre', sans-serif;
 }
