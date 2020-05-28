@@ -1,29 +1,30 @@
 body {
-  color: #001538;
-  background-color: #001538;
+  color: red;
+  background-color: white;
   font-family: 'PT Sans', sans-serif;
   text-align: center;
 }
 
 .navbar {
-  background-color: #001538;
+  background-color: #00332d;
   letter-spacing: 3px;
   margin-bottom: 0 !important;
 }
 
 .nav-link {
-  color: #3aafa9;
+  color: #ffffff;
   font-size: 24px;
   font-family: 'PT Sans', sans-serif;
 }
 
 .nav-link:hover {
   color: #ffffff;
-  background-color: #001538 !important;
+  background-color: #009987 !important;
+  border-radius: 50%;
 }
 
 .header {
-  background-color: #3aafa9;
+  background-color: #004d44;
   color: #ffffff;
   font-family: 'PT Sans', sans-serif;
 }
@@ -41,12 +42,12 @@ img {
 }
 
 #portfolio {
-  background-color: white;
+  background-color: #ffffff;
   color: black;
 }
 
 #contact {
-  background-color: #3aafa9;
+  background-color: #004d44;
   color: white;
   font-family: 'Miriam Libre', sans-serif;
 }
@@ -77,7 +78,7 @@ p#footer {
 #mobile,
 #python,
 #multiple {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   border-radius: 10px;
   margin-left: 3%;
   margin-top: 2%;
