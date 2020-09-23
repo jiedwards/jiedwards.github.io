@@ -1,12 +1,12 @@
 body {
   color: red;
   background-color: white;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Miriam Libre', sans-serif;
   text-align: center;
 }
 
 .navbar {
-  background-color: #00665a;
+  background-color: #69b5e7;
   letter-spacing: 3px;
   margin-bottom: 0 !important;
 }
@@ -14,24 +14,20 @@ body {
 .nav-link {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'PT Sans', sans-serif;
 }
 
 .nav-link:hover {
-  color: #ffffff;
-  background-color: #009987 !important;
-  border-radius: 50%;
+  background-color: #69b5e7 !important;
+  text-decoration: underline !important;
 }
 
 .header {
-  background-color: #00b39e;
+  background-color: #53a3d8;
   color: #ffffff;
-  font-family: 'PT Sans', sans-serif;
 }
 
 p {
   font-size: 20px;
-  font-family: 'PT Sans', sans-serif;
 }
 
 img {
@@ -47,9 +43,8 @@ img {
 }
 
 #contact {
-  background-color: #00b39e;
+  background-color: #53a3d8;
   color: white;
-  font-family: 'Miriam Libre', sans-serif;
 }
 
 .footer {
