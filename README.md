@@ -1,2 +1,2 @@
-My [personal portfolio](jiedwards.github.io)
+My [personal portfolio](/jiedwards.github.io)
 
